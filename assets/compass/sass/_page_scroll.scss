@@ -1,12 +1,14 @@
 .pages{
-	height: 500vh
+	position: relative;
+	height: 500vh;
+	top: 0vh;
+	transition: all 3s;
 }
 
 .page1, .page2, .page3, .page4, .page5{
 	height: 100vh;
 	width: 100vw;
 	position: absolute;
-	transition: all 3s;
 }
 
 .page1{
@@ -28,6 +30,11 @@
 .page5{
 	top: 400vh;
 }
+
+// div.active-page{
+// 	top: 0vh;
+// }
+
 
 .down-arrow, .up-arrow{
 	position: absolute;

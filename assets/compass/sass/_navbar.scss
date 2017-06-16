@@ -16,4 +16,8 @@
 	.nav-active{
 		color: $green-highlight;
 	}
+
+	.nav-item:hover{
+		color: $yellow-highlight;
+	}
 }

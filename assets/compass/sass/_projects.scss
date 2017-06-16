@@ -1,6 +1,15 @@
 .project{
-	border: 2px solid black;
-	background-color: white;
+	margin-top: 20px;
+	img{
+		border: 3px $green-highlight solid;
+	}
+	img:hover{
+		width: 210px;
+		height: 210px;
+	}
+}
+
+.project-name{
+	font-family: $body-font;
 	margin-top: 10px;
-	height: 300px;
 }
