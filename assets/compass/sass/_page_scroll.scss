@@ -1,0 +1,48 @@
+.pages{
+	height: 500vh
+}
+
+.page1, .page2, .page3, .page4, .page5{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	transition: all 3s;
+}
+
+.page1{
+	top: 0vh;
+}
+
+.page2{
+	top: 100vh;
+}
+
+.page3{
+	top: 200vh;
+}
+
+.page4{
+	top: 300vh;
+}
+
+.page5{
+	top: 400vh;
+}
+
+.down-arrow, .up-arrow{
+	position: absolute;
+	left: 47%;
+	color: white;
+}
+
+.down-arrow:hover, .up-arrow:hover{
+	background-color: $green-highlight;
+}
+
+.down-arrow{
+	bottom: 0px;
+}
+
+.up-arrow{
+	top: 0px;
+}

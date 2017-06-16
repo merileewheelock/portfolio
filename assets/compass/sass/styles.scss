@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'page_scroll';
+@import 'navbar';
+@import 'welcome';
+@import 'projects';
+
+body{
+	overflow: hidden;
+	background: url('../images/bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+	// min-width:
+}
+
+.page1{
+	// background: url('../images/bg.jpg');
+	// background-size: cover;
+}
+
+.container{
+	margin-top: 200px;
+}

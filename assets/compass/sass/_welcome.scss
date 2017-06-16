@@ -1,0 +1,19 @@
+.welcome{
+	font-family: $main-font;
+	margin-top: 150px;
+	.welcome-msg1{
+		position: relative;
+		left: 182px;
+		font-size: 70px;
+	}
+	.welcome-msg2{
+		font-size: 70px;
+	}
+}
+
+.welcome-info{
+	font-family: $main-font;
+	font-size: 26.5px;
+	position: relative;
+	// left: 100px;
+}
