@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'backgrounds';
 @import 'page_scroll';
 @import 'navbar';
 @import 'welcome';
@@ -7,19 +8,13 @@
 
 body{
 	overflow: hidden;
-	background: url('../images/bg.jpg') no-repeat center center fixed;
-	background-size: cover;
-	// min-width:
-}
-
-.page1{
-	// background: url('../images/bg.jpg');
+	// background: url('../images/bg.jpg') no-repeat center center fixed;
 	// background-size: cover;
 }
 
 .page-container{
 	margin-top: 150px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.8);
 	height: 500px;
 }
 

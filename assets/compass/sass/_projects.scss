@@ -2,10 +2,12 @@
 	margin-top: 20px;
 	img{
 		border: 3px $green-highlight solid;
+		opacity: 0.9;
 	}
 	img:hover{
 		width: 210px;
 		height: 210px;
+		opacity: 1.0;
 	}
 }
 

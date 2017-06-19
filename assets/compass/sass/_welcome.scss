@@ -1,9 +1,10 @@
 .welcome{
 	font-family: $main-font;
+	color: white;
 	margin-top: 350px;
 	.welcome-msg1{
 		position: relative;
-		left: 182px;
+		// left: 182px;
 		font-size: 70px;
 	}
 	.welcome-msg2{
@@ -15,5 +16,5 @@
 	font-family: $main-font;
 	font-size: 26.5px;
 	position: relative;
-	// left: 100px;
+	color: $green-highlight;
 }
