@@ -39,7 +39,7 @@ $(document).ready(function(){
 			'top':'-200vh'
 		});
 		$('.nav-about').removeClass('nav-active');
-		$('.nav-skills').addClass('nav-active');
+		$('.nav-portfolio').addClass('nav-active');
 	});
 
 	$('.up-arrow.pg-three').click(function(){
@@ -47,7 +47,7 @@ $(document).ready(function(){
 			'top':'-100vh'
 		});
 		$('.nav-about').addClass('nav-active');
-		$('.nav-skills').removeClass('nav-active');
+		$('.nav-portfolio').removeClass('nav-active');
 	});
 
 	//Page 3 to 4
@@ -55,30 +55,13 @@ $(document).ready(function(){
 		$('.pages').css({
 			'top':'-300vh'
 		});
-		$('.nav-skills').removeClass('nav-active');
-		$('.nav-portfolio').addClass('nav-active');
+		$('.nav-portfolio').removeClass('nav-active');
+		$('.nav-contact').addClass('nav-active');
 	});
 
 	$('.up-arrow.pg-four').click(function(){
 		$('.pages').css({
 			'top':'-200vh'
-		});
-		$('.nav-skills').addClass('nav-active');
-		$('.nav-portfolio').removeClass('nav-active');
-	});
-
-	//Page 4 to 5
-	$('.down-arrow.pg-four').click(function(){
-		$('.pages').css({
-			'top':'-400vh'
-		});
-		$('.nav-portfolio').removeClass('nav-active');
-		$('.nav-contact').addClass('nav-active');
-	});
-
-	$('.up-arrow.pg-five').click(function(){
-		$('.pages').css({
-			'top':'-300vh'
 		});
 		$('.nav-portfolio').addClass('nav-active');
 		$('.nav-contact').removeClass('nav-active');

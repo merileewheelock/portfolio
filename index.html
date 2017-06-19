@@ -7,6 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Open+Sans:600" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script type="text/javascript" src="assets/scripts/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/scripts/bootstrap.min.js"></script>
@@ -19,13 +20,10 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="navigation col-sm-1 text-center">
-				<!-- <img src="./assets/images/white-up-arrow.png" width="50px"> -->
-				<div class="nav-item nav-welcome nav-active" id="1">Welcome</div>
-				<div class="nav-item nav-about" id="2">About</div>
-				<div class="nav-item nav-skills" id="3">Skills</div>
-				<div class="nav-item nav-portfolio" id="4">Portfolio</div>
-				<div class="nav-item nav-contact" id="5">Contact</div>
-				<!-- <img src="./assets/images/white-down-arrow.png" width="50px"> -->
+				<div class="nav-item nav-welcome nav-active" id="1">welcome</div>
+				<div class="nav-item nav-about" id="2">about</div>
+				<div class="nav-item nav-portfolio" id="3">portfolio</div>
+				<div class="nav-item nav-contact" id="4">contact</div>
 			</div>
 		</div>
 	</div>
@@ -34,7 +32,7 @@
 		<div class="page1">
 			<div class="container">
 				<div class="row welcome">
-					<div class="welcome-msg1 col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4">
+					<div class="welcome-msg1 col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4 hidden-xs">
 						HELLO,
 					</div>
 					<div class="welcome-msg2 col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4">
@@ -53,18 +51,17 @@
 		<div class="page2">
 			<div class="up-arrow pg-two"><img src="./assets/images/white-up-arrow.png"></div>
 			<div class="container page-container">
-				<h1 class="page-header">about</h1>
-				<div class="about-text">
-					<p>Full stack web developer trained at Digital Crafts in Atlanta, GA; previously graduated from the Georgia Institute of Technology.</p>
+				<h1 class="page-header text-center">about</h1>
+				<div class="row about-text">
+					<div class="col-sm-5 col-sm-offset-1 col-xs-12">
+						<p>Full stack web developer trained at Digital Crafts in Atlanta, GA. I am a proud graduate from the Georgia Institute of Technology.</p>
+						<p>Below are some of the areas in which I am trained.</p>
+					</div>
+					<div class="col-sm-5 hidden-xs">
+						<p>I am passionate about organized code and clean layouts. Outside of coding, I enjoy hiking with my dog, travelling with my husband, and losing myself in books. You can find me glued to the TV during football season, if I am not already at a game.</p>
+					</div>
 				</div>
-			</div>
-			<div class="down-arrow pg-two"><img src="./assets/images/white-down-arrow.png"></div>
-		</div>
 
-		<div class="page3">
-			<div class="up-arrow pg-three"><img src="./assets/images/white-up-arrow.png"></div>
-			<div class="container page-container">
-				<h1 class="page-header">skills</h1>
 				<div class="row text-center skills-row">
 					<div class="col-sm-2 col-xs-4">
 						<i class="devicon-bootstrap-plain"></i>
@@ -118,39 +115,54 @@
 					</div>
 				</div>
 			</div>
+			<div class="down-arrow pg-two"><img src="./assets/images/white-down-arrow.png"></div>
+		</div>
+
+		<div class="page3">
+			<div class="up-arrow pg-three"><img src="./assets/images/white-up-arrow.png"></div>
+			<div class="container page-container">
+				<h1 class="page-header text-center">portfolio</h1>
+				<p class="project-text">Below are a few of the projects that I am most proud of. Visit my Github profile to see more of my code.</p>
+				<div class="row text-center">
+					<div class="project col-md-4 col-sm-6 col-xs-12">
+						<img src="./assets/images/cycSlope-icon.png" />
+						<div class="project-name">cycSlope</div>
+					</div>
+					<div class="project col-md-4 col-sm-6 col-xs-12">
+						<img src="./assets/images/ttt.png" />
+						<div class="project-name">tic-tac-toe</div>
+					</div>
+					<div class="project col-md-4 col-sm-6 hidden-xs">
+						<img src="./assets/images/movie-db-icon.png" />
+						<div class="project-name">movie database</div>
+					</div>
+				</div>
+			</div>
 			<div class="down-arrow pg-three"><img src="./assets/images/white-down-arrow.png"></div>
 		</div>
 
 		<div class="page4">
 			<div class="up-arrow pg-four"><img src="./assets/images/white-up-arrow.png"></div>
-			<div class="container page-container">
-				<h1 class="page-header">portfolio</h1>
+			<div class="container page-container contact-section">
+				<h1 class="page-header text-center">want to know more?</h1>
 				<div class="row text-center">
-					<div class="project col-md-3 col-sm-6 col-xs-12">
-						<img src="./assets/images/cycSlope-icon.png" />
-						<div class="project-name">cycSlope</div>
+					<div class="col-xs-3">
+						<a href="mailto:merilee.wheelock@gmail.com" class="fa fa-envelope fa-5x"></a>
+						<div class="contact-name">email</div>
 					</div>
-					<div class="project col-md-3 col-sm-6 col-xs-12">
-						<img src="./assets/images/movie-db-icon.png" />
-						<div class="project-name">movie database</div>
+					<div class="col-xs-3">
+						<a href="https://www.linkedin.com/in/merilee-wheelock-5337b86b" target="_blank" class="fa fa-linkedin fa-5x"></a>
+						<div class="contact-name">linkedin</div>
 					</div>
-					<div class="project col-md-3 col-sm-6 col-xs-12">
-						<img src="./assets/images/blackjack-icon.png" />
-						<div class="project-name">blackjack</div>
+					<div class="col-xs-3">
+						<a href="https://github.com/merileewheelock" target="_blank" class="fa fa-github fa-5x"></a>
+						<div class="contact-name">github</div>
 					</div>
-					<div class="project col-md-3 col-sm-6 col-xs-12">
-						<img src="http://via.placeholder.com/200x200" />
-						<div class="project-name">project</div>
+					<div class="col-xs-3">
+						<a href="./assets/images/MerileeWheelock_Resume.pdf" target="_blank" class="fa fa-file fa-5x"></a>
+						<div class="contact-name">resume</div>
 					</div>
 				</div>
-			</div>
-			<div class="down-arrow pg-four"><img src="./assets/images/white-down-arrow.png"></div>
-		</div>
-
-		<div class="page5">
-			<div class="up-arrow pg-five"><img src="./assets/images/white-up-arrow.png"></div>
-			<div class="container page-container">
-				<h1 class="page-header">contact</h1>
 			</div>
 		</div>
 	</div>

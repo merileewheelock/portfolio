@@ -1,11 +1,11 @@
 .pages{
 	position: relative;
-	height: 500vh;
+	height: 400vh;
 	top: 0vh;
 	transition: all 3s;
 }
 
-.page1, .page2, .page3, .page4, .page5{
+.page1, .page2, .page3, .page4{
 	height: 100vh;
 	width: 100vw;
 	position: absolute;
@@ -25,10 +25,6 @@
 
 .page4{
 	top: 300vh;
-}
-
-.page5{
-	top: 400vh;
 }
 
 .down-arrow, .up-arrow{

@@ -9,7 +9,7 @@
 
 /* line 9, ../compass/sass/_backgrounds.scss */
 .page2 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/hiking-bg.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/scotland-bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 
 /* line 17, ../compass/sass/_backgrounds.scss */
 .page3 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/whiteboard-bg.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/computer-cat-bg.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,16 +27,7 @@
 
 /* line 25, ../compass/sass/_backgrounds.scss */
 .page4 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/computer-cat-bg.jpeg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 33, ../compass/sass/_backgrounds.scss */
-.page5 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/pup-phone-bg.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/pup-phone-bg2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,13 +37,13 @@
 /* line 1, ../compass/sass/_page_scroll.scss */
 .pages {
   position: relative;
-  height: 500vh;
+  height: 400vh;
   top: 0vh;
   transition: all 3s;
 }
 
 /* line 8, ../compass/sass/_page_scroll.scss */
-.page1, .page2, .page3, .page4, .page5 {
+.page1, .page2, .page3, .page4 {
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -79,28 +70,23 @@
 }
 
 /* line 30, ../compass/sass/_page_scroll.scss */
-.page5 {
-  top: 400vh;
-}
-
-/* line 34, ../compass/sass/_page_scroll.scss */
 .down-arrow, .up-arrow {
   position: absolute;
   left: 47%;
   color: white;
 }
 
-/* line 40, ../compass/sass/_page_scroll.scss */
+/* line 36, ../compass/sass/_page_scroll.scss */
 .down-arrow:hover, .up-arrow:hover {
   background-color: #A9FFAF;
 }
 
-/* line 44, ../compass/sass/_page_scroll.scss */
+/* line 40, ../compass/sass/_page_scroll.scss */
 .down-arrow {
   bottom: 0px;
 }
 
-/* line 48, ../compass/sass/_page_scroll.scss */
+/* line 44, ../compass/sass/_page_scroll.scss */
 .up-arrow {
   top: 0px;
 }
@@ -108,7 +94,7 @@
 /* line 1, ../compass/sass/_navbar.scss */
 .navigation {
   position: fixed;
-  right: 0px;
+  left: 0px;
   z-index: 10;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -164,19 +150,19 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 1, ../compass/sass/_skills.scss */
+/* line 5, ../compass/sass/_about.scss */
 i {
   font-size: 5em;
   color: #078C49;
 }
 
-/* line 6, ../compass/sass/_skills.scss */
+/* line 10, ../compass/sass/_about.scss */
 .skill-name {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
 }
 
-/* line 11, ../compass/sass/_skills.scss */
+/* line 15, ../compass/sass/_about.scss */
 .skills-row {
   margin-top: 30px;
 }
@@ -198,7 +184,30 @@ i {
 }
 
 /* line 14, ../compass/sass/_projects.scss */
+.project-text {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 18, ../compass/sass/_projects.scss */
 .project-name {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+}
+
+/* line 1, ../compass/sass/_contact.scss */
+.fa, .fa:visited {
+  color: #078C49;
+  text-decoration: none;
+}
+
+/* line 6, ../compass/sass/_contact.scss */
+.fa:hover, .fa:active {
+  color: #FCF294;
+  text-decoration: none;
+}
+
+/* line 11, ../compass/sass/_contact.scss */
+.contact-name {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
 }
@@ -208,14 +217,14 @@ body {
   overflow: hidden;
 }
 
-/* line 17, ../compass/sass/styles.scss */
+/* line 15, ../compass/sass/styles.scss */
 .page-container {
   margin-top: 150px;
   background-color: rgba(255, 255, 255, 0.9);
   padding-bottom: 30px;
 }
 
-/* line 24, ../compass/sass/styles.scss */
+/* line 22, ../compass/sass/styles.scss */
 .page-header {
   font-family: "Josefin Sans", sans-serif;
 }

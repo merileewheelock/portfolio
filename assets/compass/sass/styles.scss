@@ -4,14 +4,12 @@
 @import 'navbar';
 @import 'welcome';
 @import 'about';
-@import 'skills';
 @import 'projects';
+@import 'contact';
 
 
 body{
 	overflow: hidden;
-	// background: url('../images/bg.jpg') no-repeat center center fixed;
-	// background-size: cover;
 }
 
 .page-container{

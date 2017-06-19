@@ -1,0 +1,14 @@
+.fa, .fa:visited{
+	color: $dark-green;
+	text-decoration: none;
+}
+
+.fa:hover, .fa:active{
+	color: $yellow-highlight;
+	text-decoration: none;
+}
+
+.contact-name{
+	font-family: $body-font;
+	margin-top: 10px;
+}
