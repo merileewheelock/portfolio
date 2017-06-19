@@ -1,6 +1,7 @@
 .welcome{
 	font-family: $main-font;
 	color: white;
+	text-shadow: 2px 2px gray;
 	margin-top: 350px;
 	.welcome-msg1{
 		position: relative;
@@ -15,6 +16,7 @@
 .welcome-info{
 	font-family: $main-font;
 	font-size: 26.5px;
+	text-shadow: 2px 2px gray;
 	position: relative;
 	color: $green-highlight;
 }
