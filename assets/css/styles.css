@@ -186,12 +186,29 @@ i {
 /* line 14, ../compass/sass/_projects.scss */
 .project-text {
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
-/* line 18, ../compass/sass/_projects.scss */
+/* line 19, ../compass/sass/_projects.scss */
 .project-name {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
+}
+
+/* line 24, ../compass/sass/_projects.scss */
+.project-desc {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+/* line 30, ../compass/sass/_projects.scss */
+.message {
+  margin: auto;
+  background: #FCF294;
+  font-weight: bold;
+  width: 300px;
+  padding: 10px 0;
 }
 
 /* line 1, ../compass/sass/_contact.scss */
@@ -220,7 +237,7 @@ body {
 
 /* line 15, ../compass/sass/styles.scss */
 .page-container {
-  margin-top: 150px;
+  margin-top: 100px;
   background-color: rgba(255, 255, 255, 0.9);
   padding-bottom: 30px;
 }

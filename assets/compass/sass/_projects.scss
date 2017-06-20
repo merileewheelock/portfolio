@@ -13,9 +13,24 @@
 
 .project-text{
 	font-family: $body-font;
+	text-align: center;
 }
 
 .project-name{
 	font-family: $body-font;
 	margin-top: 10px;
+}
+
+.project-desc{
+	font-family: $body-font;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+
+.message{
+	margin: auto;
+	background: $yellow-highlight;
+	font-weight: bold;
+	width: 300px;
+	padding: 10px 0;
 }
