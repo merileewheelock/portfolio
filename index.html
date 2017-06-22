@@ -124,31 +124,51 @@
 				<h1 class="page-header text-center">portfolio</h1>
 				<p class="project-text">Below are a few of the projects that I am most proud of. Visit my Github profile to see more of my code.</p>
 				<p class="project-text message">Actual links coming soon ;)</p>
-				<div class="row text-center">
-					<div class="project col-md-4 col-sm-6 col-xs-12">
-						<img src="./assets/images/cycSlope-icon.png" />
-						<div class="project-name">cycSlope</div>
-						<div class="project-desc hidden-sm hidden-xs">
-							<!-- <p>A route planning web application for users who are looking to choose their routes based on elevation change.</p> -->
-							<!-- <p>Technologies: Node.js, AJAX, Express, jQuery, EJS, CSS, Bootstrap, Google Maps API</p> -->
-						</div>
-					</div>
-					<div class="project col-md-4 col-sm-6 col-xs-12">
-						<img src="./assets/images/ttt.png" />
-						<div class="project-name">tic-tac-toe</div>
-						<div class="project-desc hidden-sm hidden-xs">
-							<!-- <p>Technologies: HTML, CSS, Javascript</p> -->
-						</div>
-					</div>
-					<div class="project col-md-4 col-sm-6 hidden-xs">
-						<img src="./assets/images/movie-db-icon.png" />
-						<div class="project-name">movie database</div>
-						<div class="project-desc hidden-sm hidden-xs">
-							<!-- <p>Another online movie database</p> -->
-							<!-- <p>Technologies: HTML, CSS, Javascript, jQuery</p> -->
-						</div>
-					</div>
+
+
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <div class="project-img text-center"><img src="./assets/images/cycSlope-icon.png" /></div>
+				      <div class="carousel-caption">
+				        <p>A route planning web application for users who are looking to choose their routes based on elevation change.</p>
+						<p>Technologies: Node.js, AJAX, Express, jQuery, EJS, CSS, Bootstrap, Google Maps API</p>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <div class="project-img text-center"><img src="./assets/images/ttt.png" /></div>
+				      <div class="carousel-caption">
+				        <p>Technologies: HTML, CSS, Javascript</p>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <div class="project-img text-center"><img src="./assets/images/movie-db-icon.png" /></div>
+				      <div class="carousel-caption">
+				      	<p>Another online movie database</p>
+				        <p>Technologies: HTML, CSS, Javascript, jQuery</p>
+				      </div>
+				    </div>
+				  </div>
+
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
 				</div>
+
 			</div>
 			<div class="down-arrow pg-three"><img src="./assets/images/white-down-arrow.png"></div>
 		</div>

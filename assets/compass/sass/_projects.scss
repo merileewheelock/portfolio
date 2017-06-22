@@ -1,5 +1,4 @@
-.project{
-	margin-top: 20px;
+.project-img{
 	img{
 		border: 3px $green-highlight solid;
 		opacity: 0.9;
@@ -16,21 +15,19 @@
 	text-align: center;
 }
 
-.project-name{
-	font-family: $body-font;
-	margin-top: 10px;
-}
-
-.project-desc{
-	font-family: $body-font;
-	margin-top: 10px;
-	font-weight: bolder;
-}
-
 .message{
 	margin: auto;
 	background: $yellow-highlight;
 	font-weight: bold;
 	width: 300px;
 	padding: 10px 0;
+}
+
+
+.carousel-caption, .carousel-caption ul{
+	position: initial;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: black;
+	font-family: $body-font;
 }
