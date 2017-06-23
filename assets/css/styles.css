@@ -198,9 +198,19 @@ i {
 .carousel-caption, .carousel-caption ul {
   position: initial;
   padding-top: 10px;
-  padding-bottom: 35px;
+  padding-bottom: 50px;
   color: black;
   font-family: "Open Sans", sans-serif;
+}
+
+/* line 35, ../compass/sass/_projects.scss */
+.carousel-indicators li {
+  background-color: #A9FFAF;
+}
+
+/* line 39, ../compass/sass/_projects.scss */
+.carousel-indicators .active {
+  background-color: #078C49;
 }
 
 /* line 1, ../compass/sass/_contact.scss */
