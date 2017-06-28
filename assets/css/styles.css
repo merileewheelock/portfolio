@@ -72,7 +72,7 @@
 /* line 30, ../compass/sass/_page_scroll.scss */
 .down-arrow, .up-arrow {
   position: absolute;
-  left: 47%;
+  left: 45%;
   color: white;
 }
 
@@ -152,7 +152,7 @@
 
 /* line 5, ../compass/sass/_about.scss */
 i {
-  font-size: 5em;
+  font-size: 3em;
   color: #078C49;
 }
 
@@ -160,11 +160,6 @@ i {
 .skill-name {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
-}
-
-/* line 15, ../compass/sass/_about.scss */
-.skills-row {
-  margin-top: 30px;
 }
 
 /* line 2, ../compass/sass/_projects.scss */
