@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('.nav-item').click(function(){
+	$('.nav-item').click(function(event){
 		var currentNavbarId = $('.nav-active').attr('id');
 		// console.log("currentNavbarId: " + currentNavbarId);
 
@@ -8,11 +8,11 @@ $(document).ready(function(){
 		// console.log("targetedPageId: " + targetedPageId);
 
 		$('.pages').css({
-			'top':`-${targetedPageId - 1}00vh`
+			'top':'-' + (targetedPageId - 1) + '00vh'
 		});
 
- 		$(`#${currentNavbarId}`).removeClass('nav-active');
-		$(`#${targetedPageId}`).addClass('nav-active');
+ 		$('#' + currentNavbarId).removeClass('nav-active');
+		$('#' + targetedPageId).addClass('nav-active');
 	});
 
 
@@ -68,7 +68,10 @@ $(document).ready(function(){
 	});
 
 	// Stops the carousel auto scroll right
-	$('.carousel').carousel({
-		interval: false
-	});
+	$('.carousel').each(function(){
+    	$(this).carousel({
+    		pause: true,
+    		interval: false
+    	});
+    });
 });
