@@ -160,6 +160,7 @@ i {
 .skill-name {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
+  color: gray;
 }
 
 /* line 2, ../compass/sass/_projects.scss */
