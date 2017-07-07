@@ -163,6 +163,11 @@ i {
   color: gray;
 }
 
+/* line 20, ../compass/sass/_about.scss */
+.about-xs-format {
+  font-size: 10px;
+}
+
 /* line 2, ../compass/sass/_projects.scss */
 .project-img img {
   border: 3px #A9FFAF solid;
