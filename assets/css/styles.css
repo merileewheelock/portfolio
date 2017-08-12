@@ -172,21 +172,22 @@ i {
 .project-img img {
   border: 3px #A9FFAF solid;
   opacity: 0.9;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-/* line 6, ../compass/sass/_projects.scss */
+/* line 8, ../compass/sass/_projects.scss */
 .project-img img:hover {
-  width: 210px;
-  height: 210px;
+  border: 3px #FCF294 solid;
   opacity: 1.0;
 }
 
-/* line 13, ../compass/sass/_projects.scss */
+/* line 14, ../compass/sass/_projects.scss */
 .project-text {
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
-/* line 18, ../compass/sass/_projects.scss */
+/* line 19, ../compass/sass/_projects.scss */
 .message {
   margin: auto;
   background: #FCF294;
@@ -195,23 +196,9 @@ i {
   padding: 10px 0;
 }
 
-/* line 27, ../compass/sass/_projects.scss */
-.carousel-caption, .carousel-caption ul {
-  position: initial;
-  padding-top: 10px;
-  padding-bottom: 50px;
-  color: black;
-  font-family: "Open Sans", sans-serif;
-}
-
-/* line 35, ../compass/sass/_projects.scss */
-.carousel-indicators li {
-  background-color: #A9FFAF;
-}
-
-/* line 39, ../compass/sass/_projects.scss */
-.carousel-indicators .active {
-  background-color: #078C49;
+/* line 28, ../compass/sass/_projects.scss */
+.project-box {
+  background-color: lightgray;
 }
 
 /* line 1, ../compass/sass/_contact.scss */
