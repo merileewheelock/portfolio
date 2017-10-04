@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("Hello, fellow builder :)")
+	console.log("Hello, fellow builder :)");
 
 	$('.nav-item').click(function(event){
 		var currentNavbarId = $('.nav-active').attr('id');
