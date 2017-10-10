@@ -52,7 +52,7 @@ $(document).ready(function(){
 		$('.nav-portfolio').removeClass('nav-active');
 	});
 
-	//Page 3 to 4
+	// Page 3 to 4
 	$('.down-arrow.pg-three').click(function(){
 		$('.pages').css({
 			'top':'-300vh'
