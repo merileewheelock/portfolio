@@ -33,18 +33,6 @@
   top: 300vh;
 }
 
-/* line 30, ../compass/sass/_page_scroll.scss */
-.down-arrow, .up-arrow {
-  position: absolute;
-  right: 0%;
-  color: white;
-}
-
-/* line 36, ../compass/sass/_page_scroll.scss */
-.down-arrow:hover, .up-arrow:hover {
-  background-color: #A9FFAF;
-}
-
 /* line 40, ../compass/sass/_page_scroll.scss */
 .down-arrow {
   bottom: 0px;
