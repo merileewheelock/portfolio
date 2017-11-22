@@ -36,7 +36,7 @@
 /* line 30, ../compass/sass/_page_scroll.scss */
 .down-arrow, .up-arrow {
   position: absolute;
-  left: 90%;
+  right: 0%;
   color: white;
 }
 
