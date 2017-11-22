@@ -70,10 +70,10 @@ $(document).ready(function(){
 	});
 
 	// Stops the carousel auto scroll right
-	$('.carousel').each(function(){
-    	$(this).carousel({
-    		pause: true,
-    		interval: false
-    	});
-    });
+	// $('.carousel').each(function(){
+ //    	$(this).carousel({
+ //    		pause: true,
+ //    		interval: false
+ //    	});
+ //    });
 });
