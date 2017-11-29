@@ -68,12 +68,5 @@ $(document).ready(function(){
 		$('.nav-portfolio').addClass('nav-active');
 		$('.nav-contact').removeClass('nav-active');
 	});
-
-	// Stops the carousel auto scroll right
-	// $('.carousel').each(function(){
- //    	$(this).carousel({
- //    		pause: true,
- //    		interval: false
- //    	});
- //    });
+	
 });
